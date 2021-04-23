@@ -6,11 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 I used a bunch of dependencies so to run first install the following in the terminal:
 
-npm install
-npm install react-router-dom
-npm install react-vanilla-tilt
-npm install react-bootstrap
-npm install react-tooltip
+<br> npm install
+<br> npm install react-router-dom
+<br> npm install react-vanilla-tilt
+<br> npm install react-bootstrap
+<br> npm install react-tooltip
 
 If errors still occur, just install the missing files.
 
