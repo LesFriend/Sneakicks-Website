@@ -1,0 +1,33 @@
+*{
+    z-index: 0;
+    font-family: "Poppins", sans-serif;
+  }
+.titleSectionBrands {
+    margin-top:1rem;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+.titleBrands {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 800;
+    font-family: 'Poppins';
+    color: #932432;
+    background-color: white;
+    display: inline-block;
+  }
+.barBrands{
+    width: 100%;
+    position: absolute;
+    height: 3rem;
+    background: linear-gradient(
+      90deg,
+      #932432 0%,
+      #932432 50%,
+      #283747 100%
+    );
+}
+.gridHolder{
+  padding: 5rem;
+}

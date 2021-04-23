@@ -1,0 +1,167 @@
+.container 
+{
+    margin-top: 2rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.container .box 
+{
+    position: relative;
+    width: 320px;
+    height: 500px;
+    margin: 20px;
+    background: linear-gradient(
+      180deg,
+      #932432 0%,
+      #283747 100%
+    );
+    /*background:transparent;*/
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    transform-style: preserve-3d;
+}
+.name
+{
+    position: absolute;
+    bottom:190px;
+    left: 0;
+    text-align: center;
+    color: #F3F3F3;
+    font-weight: bolder;
+    width: 100%;
+    transform-style: preserve-3d;
+    transform:translate3d(0,0,100px);
+    transition: 0.5s;
+    opacity: 1;
+    z-index: 10;
+    font-family: 'Poppins', 'sans-serif';
+}
+.price
+{
+    position: absolute;
+    bottom:160px;
+    left: 0;
+    text-align: center;
+    color: #F3F3F3;
+    font-weight:lighter;
+    width: 100%;
+    font-size: 1rem;
+    transform-style: preserve-3d;
+    transform:translate3d(0,0,100px);
+    transition: 0.5s;
+    opacity: 1;
+    z-index: 10;
+    font-family: 'Poppins', 'sans-serif';
+}     
+.viewProduct
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform:translate3d(-50%,0,75px);
+    width: 80%;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #F3F3F3;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10; 
+}
+.container .box:hover .viewProduct
+{
+    bottom: 100px;
+    opacity: 1;
+    text-decoration: none;
+}
+.viewProduct:hover
+{
+    color: #DE354C;
+}
+.addtoCart
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform:translate3d(-50%,0,75px);
+    width: 80%;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #F3F3F3;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+.container .box:hover .addtoCart
+{
+    bottom: 40px;
+    opacity: 1;
+    text-decoration: none;
+}
+.addtoCart:hover
+{
+    color: #DE354C;
+}
+.circle
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+    background: rgba(255, 255, 255, 0.1);
+    transform-style: preserve-3d;
+    transform:translate3d(-50%,-50%,50px);
+    z-index: 10;
+    opacity: 1; 
+}
+.product
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    max-width: 250px;
+    transition: 0.5s;
+    z-index: 11;
+    transform-style: preserve-3d;
+    transform:translate3d(-47%,-50%,50px) rotate(15deg); 
+}
+.container .box:hover .product
+{
+    transform:translate3d(-47%,-50%,50px) rotate(20deg); 
+    max-width: 320px;
+    top: 25%;
+}
+.favButton
+{
+    background:transparent;
+    width: 20px;
+    height: 20px;
+    position:absolute;
+}
+.favButtonIcon
+{
+    width: 20px;
+    height: 20px;
+}

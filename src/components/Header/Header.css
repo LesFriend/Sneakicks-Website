@@ -1,0 +1,39 @@
+.header {
+    background: rgba(26, 23, 23, 0);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: relative;
+    top: 0;
+  }
+
+.logoImage {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+    max-width: 10rem;
+    min-width: 5rem;
+  }
+
+.searchPaper {
+    background-color: white;
+    padding: 2px 4px;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+  }
+.input {
+    margin-left: 1rem;
+    min-width: 2rem;
+    flex: 1;
+  }
+.searchButton {
+    padding: 10;
+    color: #932432;
+  }
+.cartButton {
+    color: #932432;
+    padding-right: 10;
+  }

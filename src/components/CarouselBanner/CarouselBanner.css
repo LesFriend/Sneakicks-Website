@@ -1,0 +1,15 @@
+.root{
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.carousel {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+.carouselImage{
+    height: 100%;
+    display: block;
+}
