@@ -4,9 +4,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+I used a bunch of dependencies so to run first install the following in the terminal:
+
+npm install
+npm install react-router-dom
+npm install react-vanilla-tilt
+npm install react-bootstrap
+npm install react-tooltip
+
+If errors still occur, just install the missing files.
+
 In the project directory, you can run:
 
 ### `npm start`
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
