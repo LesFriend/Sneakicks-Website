@@ -47,7 +47,7 @@
     left: 0;
     text-align: center;
     color: #F3F3F3;
-    font-weight:lighter;
+    font-weight:600;
     width: 100%;
     font-size: 1rem;
     transform-style: preserve-3d;
@@ -153,15 +153,15 @@
     max-width: 320px;
     top: 25%;
 }
-.favButton
+.fav
+  {
+    position: absolute;
+    right: 1rem;
+    top:1rem;
+    color: rgba(243, 243, 243, 0.5);
+    transition: 0.5s;
+  }
+  .fav:hover
 {
-    background:transparent;
-    width: 20px;
-    height: 20px;
-    position:absolute;
-}
-.favButtonIcon
-{
-    width: 20px;
-    height: 20px;
+    color: #f3f3f3
 }
